@@ -22,15 +22,12 @@ fish_harvest(
 \item{carrying_capacity}{= stock_initial}
 }
 \value{
-final stock
+final stock (kg)
 
-sustainability of harvest
+sustainability of harvest (sustainable or unsustainable)
 
-status of stock
+status of stock (healthy, overfished, critically low or fully depleted)
 }
 \description{
 This function is a basic fisheries harvest model. It takes the initial stock biomass, annual harvest rate, and number of years as inputs.
-}
-\author{
-Kort Alexander and Evie Vermeer
 }

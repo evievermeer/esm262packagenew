@@ -6,10 +6,10 @@ library(tidyverse)
 #' @param annual_harvest (kg)
 #' @param growth_rate (kg) default is .5
 #' @param carrying_capacity = stock_initial
-#' @author Kort Alexander and Evie Vermeer
-#' @return final stock
-#' @return sustainability of harvest
-#' @return status of stock
+#' @authors Kort Alexander and Evie Vermeer
+#' @return final stock (kg)
+#' @return sustainability of harvest (sustainable or unsustainable)
+#' @return status of stock (healthy, overfished, critically low or fully depleted)
 #'
 #'
 

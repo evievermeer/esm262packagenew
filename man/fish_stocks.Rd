@@ -3,14 +3,14 @@
 \docType{data}
 \name{fish_stocks}
 \alias{fish_stocks}
-\title{This is a test}
+\title{This is is sample data for fish stocks (kg) for the initial level of a theoretical harvest scenario}
 \format{
-An object of class \code{numeric} of length 10000.
+A vector with 100 values with a mean of 10,000 and standard deviation of (10,000*.15)
 }
 \usage{
 fish_stocks
 }
 \description{
-This is a test
+This is is sample data for fish stocks (kg) for the initial level of a theoretical harvest scenario
 }
 \keyword{datasets}

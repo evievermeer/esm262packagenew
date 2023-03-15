@@ -5,7 +5,7 @@
 \alias{harvest_rates}
 \title{Test for harvest rates documentation}
 \format{
-An object of class \code{numeric} of length 100.
+A vector with 100 values with a mean of 10,000 and standard deviation of (10,000*.15)
 }
 \usage{
 harvest_rates
