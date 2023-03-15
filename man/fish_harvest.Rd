@@ -13,6 +13,12 @@ fish_harvest(
 )
 }
 \arguments{
+\item{stock_initial}{(kg)}
+
+\item{annual_harvest}{(kg)}
+
+\item{growth_rate}{(kg) default is .5}
+
 \item{carrying_capacity}{= stock_initial}
 }
 \value{
