@@ -3,14 +3,16 @@
 \docType{data}
 \name{fish_data}
 \alias{fish_data}
-\title{Documentation for fish data}
+\title{Fish stock and harvest data for a hypothetical fisheries model}
 \format{
-An object of class \code{data.frame} with 100 rows and 2 columns.
+A data frame with 101 rows and 2 variables.
 }
 \usage{
 fish_data
 }
 \description{
-Documentation for fish data
+Random data produced using the 'rnorm' function with 100 observations.
+Stock data has a mean value of 100,000 (kg)
+Harvest data (annual) has a mean value of 10,000 (kg)
 }
 \keyword{datasets}
