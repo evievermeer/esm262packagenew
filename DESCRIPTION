@@ -1,12 +1,13 @@
 Package: esmpackagenew
 Type: Package
-Title: This is my ESM262 Package
+Title: This is a package for ESM262 that contains the foundation for a basic fisheries model
 Version: 0.1.0
 Author: Evie Vermeer and Kort Alexander
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Maintainer: evermeer@bren.ucsb.edu
+Description: Along with a function for the fisheries model, this package contains datasets for running the model. Help pages for each item are available 
+    
+    
+License: N/A
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.2.3
