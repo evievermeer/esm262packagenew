@@ -5,8 +5,6 @@ Version: 0.1.0
 Author: Evie Vermeer and Kort Alexander
 Maintainer: evermeer@bren.ucsb.edu
 Description: Along with a function for the fisheries model, this package contains datasets for running the model. Help pages for each item are available 
-    
-    
 License: N/A
 Encoding: UTF-8
 LazyData: true
