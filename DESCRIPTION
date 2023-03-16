@@ -3,7 +3,7 @@ Type: Package
 Title: This is a package for ESM262 that contains the foundation for a basic fisheries model
 Version: 0.1.0
 Author: Evie Vermeer and Kort Alexander
-Maintainer: evermeer@bren.ucsb.edu
+Maintainer: Evie Vermeer
 Description: Along with a function for the fisheries model, this package contains datasets for running the model. Help pages for each item are available 
 License: N/A
 Encoding: UTF-8
