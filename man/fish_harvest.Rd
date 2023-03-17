@@ -2,7 +2,7 @@
 % Please edit documentation in R/fish_harvest.R
 \name{fish_harvest}
 \alias{fish_harvest}
-\title{This function is a basic fisheries harvest model. It takes the initial stock biomass, annual harvest rate, and number of years as inputs.}
+\title{Fish Harvest}
 \usage{
 fish_harvest(
   stock_initial,
@@ -29,5 +29,10 @@ sustainability of harvest (sustainable or unsustainable)
 status of stock (healthy, overfished, critically low or fully depleted)
 }
 \description{
-This function is a basic fisheries harvest model. It takes the initial stock biomass, annual harvest rate, and number of years as inputs.
+This function runs a basic fisheries model using a logistic growth equation. It uses the initial
+stock level, annual harvest, the number of years, and some parameters to compute the final
+stock level, stock status, and sustainability of fishing.
+}
+\author{
+Kort Alexander and Evie Vermeer
 }

@@ -1,12 +1,15 @@
 library(tidyverse)
 
-#' This function is a basic fisheries harvest model. It takes the initial stock biomass, annual harvest rate, and number of years as inputs.
+#' Fish Harvest
 #'
+#' This function runs a basic fisheries model using a logistic growth equation. It uses the initial
+#' stock level, annual harvest, the number of years, and some parameters to compute the final
+#' stock level, stock status, and sustainability of fishing.
 #' @param stock_initial (kg)
 #' @param annual_harvest (kg)
 #' @param growth_rate (kg) default is .5
 #' @param carrying_capacity = stock_initial
-#' @authors Kort Alexander and Evie Vermeer
+#' @author Kort Alexander and Evie Vermeer
 #' @return final stock (kg)
 #' @return sustainability of harvest (sustainable or unsustainable)
 #' @return status of stock (healthy, overfished, critically low or fully depleted)
